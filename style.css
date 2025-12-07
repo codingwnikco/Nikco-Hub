@@ -177,6 +177,30 @@ h1 {
 }
 
 
+@media (max-width: 768px) {
+    
+    
+    .container {
+       
+        transform: none !important; 
+        transition: none !important;
+    }
+    
+    
+    .link-card:hover {
+      
+        transform: translateY(-3px); 
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.7);
+    }
+    
+   
+    body::before {
+        backdrop-filter: blur(4px); 
+        -webkit-backdrop-filter: blur(4px);
+    }
+}
+
+
 .link-card.instagram .icon { color: #E1306C; }
 .link-card.github .icon { color: #ffffff; }
 .link-card.paypal .icon { color: #00457C; }
